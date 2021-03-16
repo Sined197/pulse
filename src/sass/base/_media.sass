@@ -29,6 +29,9 @@
         .next
             right: 30px
             left: auto
+    .catalog
+        &__content
+            justify-content: space-around
 @media (max-width: 767px)
     .container
         max-width: 540px
@@ -117,7 +120,7 @@
         &__item-header
             margin-top: 20px
     .title
-        font-size: 24px
+        font-size: 20px
     .title
         &_left
             font-size: 20px
@@ -139,6 +142,7 @@
         .tns-nav
             display: flex
             justify-content: space-around
+            margin-bottom: 20px
             &-active
                 background-color: $main-color
             button
@@ -146,5 +150,18 @@
                 height: 20px
                 border: none
                 border-radius: 100%
+    .catalog
+        &__tabs
+            margin-top: 40px
+        &__tab
+            width: 83px
+            font-size: 9px
+    .reviews
+        &__item
+            margin-top: 65px
+        &__text
+            margin-top: 14px
+            font-size: 14px
+
 
         
